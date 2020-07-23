@@ -1,0 +1,25 @@
+{
+  "name": "project-kube",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "author": "RoderickQiu",
+  "license": "CC-BY-4.0",
+  "homepage": "https://getwnr.com",
+  "dependencies": {
+    "vuepress-plugin-canonical": "^1.0.0",
+    "vuepress-plugin-img-lazy": "^1.0.3",
+    "vuepress-plugin-pangu": "^1.0.1",
+    "vuepress-plugin-sitemap": "^2.3.1",
+    "vuepress-plugin-smooth-scroll": "^0.0.9",
+    "vuepress-plugin-zooming": "^1.1.7"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.5.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.5.2",
+    "vuepress-theme-note": "^1.1.3"
+  }
+}
