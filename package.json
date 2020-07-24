@@ -5,9 +5,8 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs"
   },
-  "author": "RoderickQiu",
+  "author": "Scris Studio",
   "license": "CC-BY-4.0",
-  "homepage": "https://getwnr.com",
   "dependencies": {
     "vuepress-plugin-canonical": "^1.0.0",
     "vuepress-plugin-img-lazy": "^1.0.3",

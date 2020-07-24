@@ -3,13 +3,10 @@ module.exports = {
     title: '方块星计划',
     description: '关于方块星这一虚拟星球，这个网站有你所想知道的一切。',
     head: [
-        /*['link', { rel: 'icon', href: '/assets/favicon.ico' }],*/
+        ['link', { rel: 'icon', href: '/favicon.png' }],
         ['script', { src: '/patcher.js' }],
         ['link', { rel: 'manifest', href: '/manifest.json' }],
-        ['meta', { name: 'theme-color', content: '#ffffff' }],
-        ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-        /*['link', { rel: 'apple-touch-icon', href: '/assets/appleTouchIcon.png' }]*/
+        ['meta', { name: 'theme-color', content: '#ffffff' }]
     ],
     evergreen: true,
     shouldPrefetch: () => false,
@@ -35,6 +32,26 @@ module.exports = {
         },*/
         'img-lazy': {}
     },
+    lastUpdated: '上次更新',
     port: 9997,
-    editLinks: true
+    themeConfig: {
+        logo: 'icon-144.png',
+        repo: 'ScrisStudio/projectKube',
+        nav: [
+            { text: '简介与地图', link: '/introduction/' },
+            { text: '词条', link: '/wiki/' },
+            { text: '关于', link: '/about/' }
+        ],
+        sidebar: {
+            "/introduction/": [{
+                title: '简介与地图',
+                collapsable: false,
+                sidebarDepth: 0,
+                children: [
+                    '简介',
+                    '地图'
+                ]
+            }]
+        }
+    }
 }
