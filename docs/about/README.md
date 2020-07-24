@@ -1,3 +1,8 @@
+---
+sidebar: false
+toggleBtn: 0
+---
+
 # 关于
 
 方块星计划（Project Kube）是一个[Scris Studio](https://scris.top)的项目，目前由[Roderick Qiu](https://r-q.name)和[Tianze Ds Qiu](https://ds.scris.top)维护。

@@ -1,5 +1,5 @@
 module.exports = {
-    theme: 'note',
+    theme: 'antdocs',
     title: '方块星计划',
     description: '关于方块星这一虚拟星球，这个网站有你所想知道的一切。',
     head: [
@@ -17,9 +17,9 @@ module.exports = {
         'smooth-scroll': {},
         "pangu": {},
         'zooming': {
-            selector: ".theme-note-content img",
+            selector: ".theme-antdocs-content img",
             options: {
-                bgColor: '#ffffff',
+                bgColor: '#fefefe',
                 zIndex: 10000
             }
         },
@@ -37,6 +37,7 @@ module.exports = {
     themeConfig: {
         logo: 'icon-144.png',
         repo: 'ScrisStudio/projectKube',
+        backToTop: true,
         nav: [
             { text: '简介与地图', link: '/introduction/' },
             { text: '词条', link: '/wiki/' },
@@ -46,10 +47,9 @@ module.exports = {
             "/introduction/": [{
                 title: '简介与地图',
                 collapsable: false,
-                sidebarDepth: 0,
                 children: [
-                    '简介',
-                    '地图'
+                    'introduction',
+                    'map'
                 ]
             }]
         }
