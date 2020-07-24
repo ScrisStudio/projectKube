@@ -1,20 +1,12 @@
-# project-kube
+# Project Kube
 
-## Project setup
+## How to set up
 
 ```shell
 yarn
-```
 
-## Compiles and hot-reloads for development
-
-```shell
 yarn run dev
-```
 
-## Compiles and minifies for production
-
-```shell
 yarn run build
 ```
 
@@ -22,4 +14,4 @@ yarn run build
 
 This website is provided with **CC-BY-4.0** license.
 
-We are using vuepress and the vuepress theme vuepress-theme-note.
+We are using vuepress and the vuepress theme vuepress-theme-antdocs.
