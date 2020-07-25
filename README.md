@@ -1,17 +1,5 @@
-# Project Kube
+# 方块星计划 - Project Kube
 
-## How to set up
+关于方块星这一虚拟星球，这个网站有你所想知道的一切。
 
-```shell
-yarn
-
-yarn run dev
-
-yarn run build
-```
-
-## License & Acknoledgements
-
-This website is provided with **CC-BY-4.0** license.
-
-We are using vuepress and the vuepress theme vuepress-theme-antdocs.
+![index.jpg](https://i.loli.net/2020/07/24/fJ28rG34h6ilCYp.jpg)

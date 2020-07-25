@@ -2,12 +2,13 @@
   "name": "project-kube",
   "version": "1.0.0",
   "scripts": {
-    "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "dev": "vuepress dev .",
+    "build": "vuepress build ."
   },
   "author": "Scris Studio",
   "license": "CC-BY-4.0",
   "dependencies": {
+    "@omar2535/vuepress-sidebar-children-autogenerator": "^3.0.0",
     "vuepress-plugin-canonical": "1.0.0",
     "vuepress-plugin-img-lazy": "1.0.3",
     "vuepress-plugin-pangu": "1.0.1",

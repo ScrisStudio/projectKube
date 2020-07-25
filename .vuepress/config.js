@@ -1,3 +1,5 @@
+let childrenGenerator = require('@omar2535/vuepress-sidebar-children-autogenerator');
+
 module.exports = {
     theme: 'antdocs',
     title: '方块星计划',
@@ -35,8 +37,9 @@ module.exports = {
     lastUpdated: '上次更新',
     port: 9997,
     themeConfig: {
-        logo: 'icon-144.png',
+        logo: '/icon-144.png',
         repo: 'ScrisStudio/projectKube',
+        displayAllHeaders: true,
         backToTop: true,
         nav: [
             { text: '简介与地图', link: '/introduction/' },
@@ -44,14 +47,8 @@ module.exports = {
             { text: '关于', link: '/about/' }
         ],
         sidebar: {
-            "/introduction/": [{
-                title: '简介与地图',
-                collapsable: false,
-                children: [
-                    'introduction',
-                    'map'
-                ]
-            }]
+            "/introduction/": childrenGenerator('/introduction/', false),
+            "/wiki/": childrenGenerator('/wiki/', true, ['readme.md'], ['.obsidian'])
         }
     }
 }
