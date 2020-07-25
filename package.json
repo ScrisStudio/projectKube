@@ -8,9 +8,10 @@
   "author": "Scris Studio",
   "license": "CC-BY-4.0",
   "dependencies": {
-    "@omar2535/vuepress-sidebar-children-autogenerator": "^3.0.0",
+    "@omar2535/vuepress-sidebar-children-autogenerator": "3.0.0",
     "vuepress-plugin-canonical": "1.0.0",
     "vuepress-plugin-img-lazy": "1.0.3",
+    "vuepress-plugin-internal-link": "0.1.0",
     "vuepress-plugin-pangu": "1.0.1",
     "vuepress-plugin-sitemap": "2.3.1",
     "vuepress-plugin-smooth-scroll": "0.0.9",

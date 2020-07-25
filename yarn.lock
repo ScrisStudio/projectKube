@@ -872,6 +872,15 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@ig3/markdown-it-wikilinks@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.npm.taobao.org/@ig3/markdown-it-wikilinks/download/@ig3/markdown-it-wikilinks-1.0.1.tgz#57996b5fabc04a4f198ffa180ad9af5689c1f031"
+  integrity sha1-V5lrX6vASk8Zj/oYCtmvVonB8DE=
+  dependencies:
+    extend "^3.0.0"
+    markdown-it-regexp "^0.4.0"
+    sanitize-filename "^1.6.1"
+
 "@mrmlnc/readdir-enhanced@^2.2.1":
   version "2.2.1"
   resolved "https://registry.npm.taobao.org/@mrmlnc/readdir-enhanced/download/@mrmlnc/readdir-enhanced-2.2.1.tgz#524af240d1a360527b730475ecfa1344aa540dde"
@@ -885,7 +894,7 @@
   resolved "https://registry.npm.taobao.org/@nodelib/fs.stat/download/@nodelib/fs.stat-1.1.3.tgz#2b5a3ab3f918cca48a8c754c08168e3f03eba61b"
   integrity sha1-K1o6s/kYzKSKjHVMCBaOPwPrphs=
 
-"@omar2535/vuepress-sidebar-children-autogenerator@^3.0.0":
+"@omar2535/vuepress-sidebar-children-autogenerator@3.0.0":
   version "3.0.0"
   resolved "https://registry.npm.taobao.org/@omar2535/vuepress-sidebar-children-autogenerator/download/@omar2535/vuepress-sidebar-children-autogenerator-3.0.0.tgz#1452b1f0c9d38ffad85ebd48071529a8286cb090"
   integrity sha1-FFKx8MnTj/rYXr1IBxUpqChssJA=
@@ -3449,7 +3458,7 @@ extend-shallow@^3.0.0, extend-shallow@^3.0.2:
     assign-symbols "^1.0.0"
     is-extendable "^1.0.1"
 
-extend@~3.0.2:
+extend@^3.0.0, extend@~3.0.2:
   version "3.0.2"
   resolved "https://registry.npm.taobao.org/extend/download/extend-3.0.2.tgz#f8b1136b4071fbd8eb140aff858b1019ec2915fa"
   integrity sha1-+LETa0Bx+9jrFAr/hYsQGewpFfo=
@@ -5065,6 +5074,11 @@ markdown-it-pangu@^1.0.2:
   dependencies:
     markdown-it "^8.4.2"
     pangu "^4.0.7"
+
+markdown-it-regexp@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.npm.taobao.org/markdown-it-regexp/download/markdown-it-regexp-0.4.0.tgz#d64d713eecec55ce4cfdeb321750ecc099e2c2dc"
+  integrity sha1-1k1xPuzsVc5M/esyF1DswJniwtw=
 
 markdown-it-table-of-contents@^0.4.0:
   version "0.4.4"
@@ -6729,6 +6743,13 @@ safe-regex@^1.1.0:
   resolved "https://registry.npm.taobao.org/safer-buffer/download/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo=
 
+sanitize-filename@^1.6.1:
+  version "1.6.3"
+  resolved "https://registry.npm.taobao.org/sanitize-filename/download/sanitize-filename-1.6.3.tgz#755ebd752045931977e30b2025d340d7c9090378"
+  integrity sha1-dV69dSBFkxl34wsgJdNA18kJA3g=
+  dependencies:
+    truncate-utf8-bytes "^1.0.0"
+
 sax@~1.2.4:
   version "1.2.4"
   resolved "https://registry.npm.taobao.org/sax/download/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
@@ -7530,6 +7551,13 @@ tr46@^1.0.1:
   dependencies:
     punycode "^2.1.0"
 
+truncate-utf8-bytes@^1.0.0:
+  version "1.0.2"
+  resolved "https://registry.npm.taobao.org/truncate-utf8-bytes/download/truncate-utf8-bytes-1.0.2.tgz#405923909592d56f78a5818434b0b78489ca5f2b"
+  integrity sha1-QFkjkJWS1W94pYGENLC3hInKXys=
+  dependencies:
+    utf8-byte-length "^1.0.1"
+
 tslib@^1.10.0, tslib@^1.9.0:
   version "1.13.0"
   resolved "https://registry.npm.taobao.org/tslib/download/tslib-1.13.0.tgz#c881e13cc7015894ed914862d276436fa9a47043"
@@ -7760,6 +7788,11 @@ use@^3.1.0:
   resolved "https://registry.npm.taobao.org/use/download/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
   integrity sha1-1QyMrHmhn7wg8pEfVuuXP04QBw8=
 
+utf8-byte-length@^1.0.1:
+  version "1.0.4"
+  resolved "https://registry.npm.taobao.org/utf8-byte-length/download/utf8-byte-length-1.0.4.tgz#f45f150c4c66eee968186505ab93fcbb8ad6bf61"
+  integrity sha1-9F8VDExm7uloGGUFq5P8u4rWv2E=
+
 util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.npm.taobao.org/util-deprecate/download/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -7935,6 +7968,13 @@ vuepress-plugin-img-lazy@1.0.3:
     lozad "^1.9.0"
     markdown-it-img-lazy "^1.0.0"
     markdown-it-imsize "^2.0.1"
+
+vuepress-plugin-internal-link@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-internal-link/download/vuepress-plugin-internal-link-0.1.0.tgz#34b84327d18a52786e99bc300307e927262bd551"
+  integrity sha1-NLhDJ9GKUnhumbwwAwfpJyYr1VE=
+  dependencies:
+    "@ig3/markdown-it-wikilinks" "1.0.1"
 
 vuepress-plugin-pangu@1.0.1:
   version "1.0.1"

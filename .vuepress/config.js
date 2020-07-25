@@ -2,7 +2,7 @@ let childrenGenerator = require('@omar2535/vuepress-sidebar-children-autogenerat
 
 module.exports = {
     theme: 'antdocs',
-    title: '方块星计划',
+    title: '方块星计划 Kube',
     description: '关于方块星这一虚拟星球，这个网站有你所想知道的一切。',
     head: [
         ['link', { rel: 'icon', href: '/favicon.png' }],
@@ -13,9 +13,10 @@ module.exports = {
     evergreen: true,
     shouldPrefetch: () => false,
     plugins: {
-        /*'sitemap': {
-            hostname: 'https://getwnr.com'
-        },*/
+        'sitemap': {
+            hostname: 'https://kube.scris.top'
+        },
+        'internal-link': {},
         'smooth-scroll': {},
         "pangu": {},
         'zooming': {
@@ -29,9 +30,9 @@ module.exports = {
             serviceWorker: true,
             updatePopup: true
         },
-        /*'canonical': {
-            baseURL: 'https://getwnr.com'
-        },*/
+        'canonical': {
+            baseURL: 'https://kube.scris.top'
+        },
         'img-lazy': {}
     },
     lastUpdated: '上次更新',
