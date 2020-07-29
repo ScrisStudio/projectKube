@@ -7969,10 +7969,10 @@ vuepress-plugin-img-lazy@1.0.3:
     markdown-it-img-lazy "^1.0.0"
     markdown-it-imsize "^2.0.1"
 
-vuepress-plugin-internal-link@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.npm.taobao.org/vuepress-plugin-internal-link/download/vuepress-plugin-internal-link-0.1.0.tgz#34b84327d18a52786e99bc300307e927262bd551"
-  integrity sha1-NLhDJ9GKUnhumbwwAwfpJyYr1VE=
+vuepress-plugin-internal-link@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/vuepress-plugin-internal-link/download/vuepress-plugin-internal-link-0.2.0.tgz#c4959634bcbf89f7a6c72959987c2b4054e9e0d3"
+  integrity sha1-xJWWNLy/ifemxylZmHwrQFTp4NM=
   dependencies:
     "@ig3/markdown-it-wikilinks" "1.0.1"
 

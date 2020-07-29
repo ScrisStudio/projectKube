@@ -1,5 +1,9 @@
 let childrenGenerator = require('@omar2535/vuepress-sidebar-children-autogenerator');
 
+let introductionSidebar = childrenGenerator('/introduction/', false);
+let wikiSidebar = childrenGenerator('/wiki/', true, ['readme.md'], ['.obsidian']);
+wikiSidebar.splice(0, 0, ['/wiki/', '首页']);
+
 module.exports = {
     theme: 'antdocs',
     title: '方块星计划 Kube',
@@ -48,8 +52,8 @@ module.exports = {
             { text: '关于', link: '/about/' }
         ],
         sidebar: {
-            "/introduction/": childrenGenerator('/introduction/', false),
-            "/wiki/": childrenGenerator('/wiki/', true, ['readme.md'], ['.obsidian'])
+            "/introduction/": introductionSidebar,
+            "/wiki/": wikiSidebar
         }
     }
 }
